@@ -1,7 +1,7 @@
 # 로보틱스 알고리즘 스터디 
 <img width="534" alt="스크린샷 2023-06-28 오후 10 59 59" src="https://github.com/Robotics-official/RoboticsMainPage/assets/137298920/9d0440ab-5002-4a12-9ed9-b4f7e6150eee">
 
-### :pencil: Rule  
+## :pencil: Rule  
 - 일주일 동안 5문제 꾸준히 풀기 (평일 하루에 한 문제씩)
 - 플랫폼은 [코딩테스트 대비 문제집](https://github.com/tony9402/baekjoon)을 사용한다.
 
