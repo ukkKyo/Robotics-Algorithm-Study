@@ -1,0 +1,60 @@
+<해결방법 및 느낀점>
+```
+처음에는 삽입과 삭제가 용이한걸로 보여서 연결리스트로 접근하려 했다. 그런데 맨 뒤에까지 갔을 때 처음으로 넘어가는게 너무 어려웠다.
+50분 정도 풀다가 도저히 안보여서 Queue로 푸는법을 참고 했다. 
+k번째가 되기 전까지 q.front()에 있는 원소를 int형 변수에 저장하고 뒤에 삽입을 하고 q.pop을 시킨다.
+(이때, q.pop을 하면서 int형 변수에 저장이 불가능함을 알아두자..!)
+k번째가 됬을 때는 변수를 요세푸스 순열 vector에 push_back을 이용해 넣어준다.
+
+큐로 푸는 아이디어가 없으면 상당히 어려웠을 거 같은 문제였다..!
+```
+
+```
+c++
+#include <bits/stdc++.h>
+using namespace std;
+
+queue<int> q;
+vector<int> arr;
+
+int main()
+{
+    int n,k;
+    cin>>n>>k;
+    for(int i=1;i<=n;i++)
+    {
+        q.push(i);
+    }
+    while(!q.empty())
+    {
+        for(int i=0;i<k;i++)
+        {
+            int num=q.front();
+            q.pop();
+            if(i==k-1)
+            {
+                arr.push_back(num);
+            }
+            else
+            {
+                q.push(num);
+            }
+        }
+    }
+    cout<<"<";
+    for(int i=0;i<arr.size();i++)
+    {
+        if(i==arr.size()-1)
+        {
+            cout<<arr[i];
+        }
+        else
+        {
+            cout<<arr[i]<<", ";
+        }
+    }
+    cout<<">";
+    return 0;
+}
+
+```
