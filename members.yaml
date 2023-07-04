@@ -1,0 +1,4 @@
+member:
+  - name: se0nShine # 실명 또는 깃헙닉네임
+    baekjoon: jselectronit # 백준 아이디 (없으면 빈칸)
+    github: se0nShine # 깃헙아이디

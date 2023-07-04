@@ -85,23 +85,3 @@ git commit -m "[BOJ] 1874 / 실버3 / 40분 / 윤재선"
 <br />
 <br />
 
-
-
-## RAS Members 👩‍👩‍👧‍👦
-<table>
-<tr height="140px">
-<td align="center" width="130px">
-<a href="https://github.com/se0nShine"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/58286830?v=4"/></a> <br />
-<a href="https://github.com/se0nShine">se0nShine</a>
-</td>
-</tr>
-<tr height="50px">
-<td align="center">
-<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jselectronit" />
-<br />
-<a href="https://www.acmicpc.net/user/jselectronit">Baekjoon</a>
-<br />
-<a href="https://solved.ac/profile/jselectronit">solved.ac</a>
-</td>
-</tr>
-</table>
